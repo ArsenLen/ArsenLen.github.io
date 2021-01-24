@@ -1,0 +1,57 @@
+html[lang="ru"] [lang="ky"] {
+    display: none;
+}
+html[lang="ky"] [lang="ru"] {
+    display: none;
+}
+html, body {
+    height: 100%;
+    background-color: #efefef;
+}
+main {
+    padding: 1%;
+    background-color: #fff;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.main-item {
+    margin: 10px;
+    width: calc(50% - 20px);
+    height: calc(25vh - 20px);
+    background-color: #F3D9DA;
+    border: none;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    outline: none; /* толщина границы кнопки */
+    user-select: none; /* не выделяется при нажатии */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 480px) {
+    .main-item {
+        font-size: 1.3rem;
+    }
+}
+.main-item span{
+    text-align: center;
+    text-decoration: none;
+}
+.main-item:active {
+    border: none;
+    transform: translate(1px); /*эффект для нажатия кнопки */
+    box-shadow: none;
+}
+.main-item:hover {
+    background-color: #f3c7c8;
+    text-decoration: none;
+    color: black;
+    transform: scale(1.01);
+}
