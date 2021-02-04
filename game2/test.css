@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    width: 100%;
+    height: calc(100% - 50px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.drop {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.droppable-item {
+    border: 1px solid black;
+    background-color: coral;
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.draggable-item {
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#drag1 {
+    background-image: url(./img2/БОР_А1.png);
+}
+#drag2 {
+    background-image: url(./img2/ДЕПТЕР_А.png);
+}
+#drag3 {
+    background-image: url(./img2/ДОСКА_А.png);
+}
+#drag4 {
+    background-image: url(./img2/КИТЕП_А\ копия.png);
+}
