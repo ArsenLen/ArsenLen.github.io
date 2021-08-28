@@ -12,6 +12,12 @@ html, body {
     margin-bottom: 10px;
     background-color: darksalmon;
 }
+.count {
+    text-align: right;
+    font-size: 72px;
+    margin-right: 20px;
+}
+
 /*
 top, left, right, bottom
 вверх, левый, правый, низ

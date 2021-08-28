@@ -4,7 +4,7 @@ $(document).ready(function () {
         let elemId = $(this).attr("id");
         console.log(elemId);
         $("body").css("background-color", elemId);
-        $("h1").text("цвет страницы " + elemId);
+        $("h1").text("цвет страницы " + elemId); // цвет страницы red 
     });
 
     $("#img").on("click", function () {
