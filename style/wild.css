@@ -1,0 +1,102 @@
+html[lang="ru"] [lang="ky"] {
+    display: none;
+}
+html[lang="ky"] [lang="ru"] {
+    display: none;
+}
+html, body {
+    height: 100%;
+    background-color: #efefef;
+}
+main {
+    padding: 1%;
+    background-color: #fff;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.item {
+    width: calc(60% - 40px);
+	height: calc((55vw - 40px) / 16 * 9);
+	margin: 20px;
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#main-item {
+    background-image: url(../main-wild/main-wild.png);
+}
+#ayu {
+    background-image: url(../wild/аюу_А.png);
+}
+#karyshkyr {
+    background-image: url(../wild/карышкыр_А.png);
+}
+#kirpi {
+    background-image: url(../wild/кирпи_А.png);
+}
+#koen {
+    background-image: url(../wild/коен_А.png);
+}
+#tulku {
+    background-image: url(../wild/Тулку_А.png);
+}
+#tiyin {
+    background-image: url(../wild/тыйын\ чычкан_А.png);
+}
+@media (max-width: 550px) {
+    .item {
+        width: calc(80% - 20px);
+        height: calc((70vw - 40px) / 9 * 16);
+        margin: 20px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+    #main-item {
+        background-image: url(../main-wild/main-wild-mob.png);
+    }
+    #ayu {
+        background-image: url(../wild-mob/аюу.png);
+    }
+    #karyshkyr {
+        background-image: url(../wild-mob/карышкыр.png);
+    }
+    #kirpi {
+        background-image: url(../wild-mob/КИРПИ.png);
+    }
+    #koen {
+        background-image: url(../wild-mob/КОЁН.png);
+    }
+    #tulku {
+        background-image: url(../wild-mob/Тулку.png);
+    }
+    #tiyin {
+        background-image: url(../wild-mob/Тыйын\ чычкан.png);
+    }
+}
+.owl-prev{
+    position:absolute;
+    top:50%;
+    left:0;
+    width:30px;
+    height:30px;
+    margin-top:-15px;
+    line-height:30px;
+    color:#fff;
+}
+  .owl-next{
+   position:absolute;
+    top:50%;
+    right:0;
+    width:30px;
+    height:30px;
+    margin-top:-15px;
+    line-height:30px;
+    color:#fff;
+}

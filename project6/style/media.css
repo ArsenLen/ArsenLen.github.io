@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width: 480px) {
     .header-info {
         width: 80%;
@@ -25,4 +26,33 @@
     .projects-item {
         margin: 10px;
     }
+=======
+@media (max-width: 480px) {
+    .header-info {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-info p {
+        padding: 10px 0;
+    }
+    .info-img {
+        margin-top: 40px;
+        width: 80%;
+    }
+    .about-me-text {
+        width: 80%;
+        text-align: center;
+    }
+    .info-text {
+        width: 80%;
+    }
+    .projects-list {
+        flex-wrap: wrap;
+    }
+    .projects-item {
+        margin: 10px;
+    }
+>>>>>>> 0e29b713f1481aa39b3e529fe6766bdb1b5ef59d
 }
