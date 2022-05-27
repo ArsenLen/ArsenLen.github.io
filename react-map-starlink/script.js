@@ -11,7 +11,7 @@ fetch("https://api.jsonbin.io/b/6290ec3f449a1f3821f1cb80")
 
 const myIcon = L.icon({
     iconUrl: './car-icon.png',
-    iconSize: [15, 15],
+    iconSize: [40, 40],
 });
         
 
