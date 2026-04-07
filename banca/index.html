@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="wrapper">
+            <header>
+                <img src="./images/logo.png" alt="Логотип Banca">
+                <div class="header-info">
+                    <nav class="header-nav">
+                        <ul class="header-menu">
+                            <li class="header-menu-link">
+                                <a href="">Для инвесторов</a>
+                                <img src="./images/arrow-down.png" alt="">
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Инвестиции</a></li>
+                                        <li><a href="#">Доходность</a></li>
+                                        <li><a href="#">Риски</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-menu-link">
+                                <a href="">Для бизнеса</a>
+                                <img src="./images/arrow-down.png" alt="">
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Финансирование</a></li>
+                                        <li><a href="#">Условия</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-cta">
+                        <a class="header-cta-phone" href="tel:+996557447807">
+                            <img src="./images/call.png" alt="Иконка позвонить">
+                        </a>
+                        <a class="header-cta-reg" href="./registration.html">Стать клиентом</a>
+                    </div>
+                    <button class="burger" id="burgerBtn" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </header>
+            <div class="mobile-menu" id="mobileMenu">
+                <nav class="mobile-nav">
+                    <ul class="header-menu" style="display: flex; flex-direction: column;">
+                            <li class="header-menu-link">
+                                <a href="">Для инвесторов</a>
+                                <img src="./images/arrow-down.png" alt="">
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Инвестиции</a></li>
+                                        <li><a href="#">Доходность</a></li>
+                                        <li><a href="#">Риски</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-menu-link">
+                                <a href="">Для бизнеса</a>
+                                <img src="./images/arrow-down.png" alt="">
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Финансирование</a></li>
+                                        <li><a href="#">Условия</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                </nav>
+            </div>
+            <div class="hero-content">
+                <div class="hero-info">
+                    <div class="hero-info-text">
+                        <h1>Инвестиции в бизнес <br> Кыргызстана <br> с доходностью <br> до 23% годовых</h1>
+                        <p class="hero-info-descr">
+                            Banca даёт доступ к инвестициям <br> в проверенные компании Кыргызстана
+                        </p>
+                        <a class="hero-info-cta" href="./registration.html">
+                            <img src="./images/arrow-right.png" alt="Иконка стрелка">
+                            Начать инвестировать
+                        </a>
+                    </div>
+                    <div class="hero-info-points">
+                        <div class="hero-info-point">
+                            <img src="./images/som-icon.png" alt="Иконка сом">
+                            <p class="hero-info-point-text">Инвестиции от 50 000 сомов</p>
+                        </div>
+                        <div class="hero-info-point">
+                            <img src="./images/adult-icon.png" alt="Иконка 18+">
+                            <p class="hero-info-point-text">Для инвесторов 18+</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="hero-info-cta-mobile" href="./registration.html">
+                            Начать инвестировать
+                             <img src="./images/arrow-right.png" alt="Иконка стрелка">
+                </a>
+                <div class="hero-cards">
+                    <div class="hero-card">
+                        <div class="hero-card-inner">
+                            <p class="hero-card-text">
+                                Лицензия Госфиннадзора №0061
+                            </p>
+
+                            <div class="hero-card-extra">
+                                Имеем лицензии на брокерскую, дилерскую деятельность и доверительное
+                                управление инвестиционными активами.
+                            </div>
+
+                            <button class="hero-card-toggle" type="button" aria-label="Подробнее">
+                                <span class="hero-card-toggle-line hero-card-toggle-line--horizontal"></span>
+                                <span class="hero-card-toggle-line hero-card-toggle-line--vertical"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hero-card">
+                        <div class="hero-card-inner">
+                            <p class="hero-card-text">Инвестируйте в местный бизнес Кыргызстана</p>
+
+                            <div class="hero-card-extra">
+                                Мы работаем на рынке Кыргызстана, поэтому в наш портфель входят только местные компании. Инвестируя с нами, вы поддерживаете экономику своей страны и способствуете развитию местного бизнеса.
+                            </div>
+
+                            <button class="hero-card-toggle" type="button" aria-label="Подробнее">
+                                <span class="hero-card-toggle-line hero-card-toggle-line--horizontal"></span>
+                                <span class="hero-card-toggle-line hero-card-toggle-line--vertical"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hero-card">
+                        <div class="hero-card-inner">
+                            <p class="hero-card-text">2000+ инвесторов уже с нами</p>
+
+                            <div class="hero-card-extra">
+                                Более 2 000 клиентов открыли счета и инвестируют через Banca — от частных лиц до предпринимателей. Мы сопровождаем каждого и обеспечиваем прозрачность на всех этапах.
+                            </div>
+
+                            <button class="hero-card-toggle" type="button" aria-label="Подробнее">
+                                <span class="hero-card-toggle-line hero-card-toggle-line--horizontal"></span>
+                                <span class="hero-card-toggle-line hero-card-toggle-line--vertical"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hero-card">
+                        <div class="hero-card-inner">
+                            <p class="hero-card-text">Мы сами инвесторы с активами более $100 млн</p>
+
+                            <div class="hero-card-extra">
+                                Сами проверяем и инвестируем в кампании, имеем большой инвестиционный портфель в 100 млн $. Наша команда управляющих — выходцы из ведущих инвестиционных компаний (БКС, ВТБ, Aton, Freedom Finance)
+                            </div>
+
+                            <button class="hero-card-toggle" type="button" aria-label="Подробнее">
+                                <span class="hero-card-toggle-line hero-card-toggle-line--horizontal"></span>
+                                <span class="hero-card-toggle-line hero-card-toggle-line--vertical"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
